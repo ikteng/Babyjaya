@@ -1,0 +1,104 @@
+.home-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #ffe3e3; /* Light background for contrast */
+}
+
+/* Banner Container */
+.banner-container {
+    margin-bottom: 20px; /* Space below the banner */
+    max-width: 800px; /* Set the maximum width to match the about container */
+    margin: 20px auto; /* Center the banner container */
+}
+
+/* About Section Container */
+.about-container {
+    background-color: white; /* White background for contrast */
+    padding: 20px; /* Padding for spacing */
+    border-radius: 30px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-bottom: 20px; /* Space below the about section */
+}
+
+/* Products Section Container */
+.products-container {
+    background-color: white; /* White background for contrast */
+    padding: 20px; /* Padding for spacing */
+    border-radius: 30px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-bottom: 20px; /* Space below the products section */
+}
+
+/* Footer Section Container */
+.footer-container {
+    text-align: center; /* Center footer text */
+    margin-top: 20px; /* Space above footer */
+}
+
+/* Banner Styles */
+.banner {
+    position: relative; /* Allow absolute positioning of overlay */
+    text-align: center; /* Center the text in the banner */
+}
+
+.banner-image {
+    max-width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for the banner */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+/* About Section Styles */
+.home-about {
+    margin: 20px 0; /* Margin for spacing */
+}
+
+.home-about h2 {
+    color: #C83830; /* Header color matching the logo */
+}
+
+/* Products Section Styles */
+.home-products {
+    margin: 20px 0; /* Margin for spacing */
+}
+
+.home-products h2 {
+    color: #C83830; /* Header color matching the logo */
+}
+
+.product-list {
+    display: grid;
+    gap: 10px; /* Space between grid items */
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+}
+
+/* For screens with less than 500px width */
+@media (max-width: 500px) {
+    .product-list {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller screens */
+    }
+}
+
+/* General Product Item Styles */
+.product-item {
+    text-align: center;
+    padding: 15px;
+    color: white;
+    border-radius: 20px; /* More rounded corners */
+    background-color: #C83830; /* Background color for product items */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect for Product Items */
+.product-item:hover {
+    transform: translateY(-10px); /* Slightly lift on hover */
+}
+
+/* Responsive Image Styles */
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    aspect-ratio: 1;
+}

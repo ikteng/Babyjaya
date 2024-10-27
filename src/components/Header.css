@@ -1,0 +1,36 @@
+/* src/components/Header.css */
+.header {
+    background-color: #333; /* Dark background color */
+    color: white; /* Text color */
+    padding: 1rem;
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Space between name and navigation */
+    align-items: center; /* Center items vertically */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; /* Remove margin to align properly */
+}
+
+.header nav ul li {
+    display: inline;
+    margin: 0 15px;
+    font-size: 1.5em;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    color: white; /* Change link color to white */
+    transition: color 0.3s; /* Smooth transition for hover */
+}
+
+.header nav ul li a:hover {
+    color: #C83830; /* Change color on hover */
+}
