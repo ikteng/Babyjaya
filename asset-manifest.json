@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/babyjaya/static/css/main.c2ff2d78.css",
-    "main.js": "/babyjaya/static/js/main.96476987.js",
+    "main.js": "/babyjaya/static/js/main.c083ccd8.js",
     "static/js/453.9d625f14.chunk.js": "/babyjaya/static/js/453.9d625f14.chunk.js",
     "index.html": "/babyjaya/index.html",
     "main.c2ff2d78.css.map": "/babyjaya/static/css/main.c2ff2d78.css.map",
-    "main.96476987.js.map": "/babyjaya/static/js/main.96476987.js.map",
+    "main.c083ccd8.js.map": "/babyjaya/static/js/main.c083ccd8.js.map",
     "453.9d625f14.chunk.js.map": "/babyjaya/static/js/453.9d625f14.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c2ff2d78.css",
-    "static/js/main.96476987.js"
+    "static/js/main.c083ccd8.js"
   ]
 }
