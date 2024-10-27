@@ -4,9 +4,9 @@ import './Home.css'; // Make sure to create this CSS file for styling
 const Home = () => {
     // Example product data (ensure the paths are correct)
     const products = [
-        { id: 1, img: "./baby-clothes.jpg", title: "Baby Clothes", description: "Stylish and comfortable clothes for your little one." },
-        { id: 2, img: "./baby-toys.jpg", title: "Toys", description: "Fun and educational toys to stimulate your baby's growth." },
-        { id: 3, img: "./baby-cot.jpg", title: "Baby Cot Bed", description: "A cozy and safe sleeping space for your little one, designed to provide comfort and support for a good night's sleep." },
+        { id: 1, img: "./images/baby-clothes.jpg", title: "Baby Clothes", description: "Stylish and comfortable clothes for your little one." },
+        { id: 2, img: "./images/baby-clothes.jpg", title: "Toys", description: "Fun and educational toys to stimulate your baby's growth." },
+        { id: 3, img: "./images/baby-clothes.jpg", title: "Baby Cot Bed", description: "A cozy and safe sleeping space for your little one, designed to provide comfort and support for a good night's sleep." },
     ];
 
     return (
@@ -15,7 +15,7 @@ const Home = () => {
             <div className="banner-container">
                 <div className="banner">
                     <img 
-                        src="./banner.png" // Ensure the banner image path is also correct
+                        src="./images/baby-clothes.jpg"
                         alt="BabyJaya, A One-Stop Shop for Your Baby" 
                         className="banner-image" 
                     />
