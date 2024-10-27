@@ -15,7 +15,7 @@ const Home = () => {
             <div className="banner-container">
                 <div className="banner">
                     <img 
-                        src="./images/banner.jpg"
+                        src="./images/banner.png"
                         alt="BabyJaya, A One-Stop Shop for Your Baby" 
                         className="banner-image" 
                     />
